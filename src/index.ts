@@ -20,7 +20,7 @@ en una comisión, mostrar el resultado para cada comisión
 comisión, mostrar el resultado para cada comisión.*/
 
 //------------- ✿◕‿◕✿----------------
-/*
+
 let comisionA: number[] = [8, 5, 7, 10, 9, 2, 4, 8, 6, 8];
 let comisionB: number[] = [3, 6, 8, 5, 4, 7, 7, 4, 6, 8];
 let comisionC: number[] = [7, 6, 9, 8, 9, 8, 5, 7, 10, 9];
@@ -28,18 +28,19 @@ let indice: number;
 
 /*1. Crear una función que devuelva el mayor promedio 
 y a qué comisión corresponde.*/
-/*
+
 function obtenerPromedio(notas: number[]): number {
   let suma: number = 0;
   let promedio: number = notas.length;
   for (indice = 0; indice < notas.length; indice++) suma += notas[indice];
   return suma / promedio;
 }
-*/
+
+//------------- ✿◕‿◕✿----------------
 //------------- ✿◕‿◕✿----------------
 
 //Mañana analizaremos este código, correspondiente al 2º ejercicio de repaso:
-/*
+
 let promedioA: number = obtenerPromedio(comisionA);
 let promedioB: number = obtenerPromedio(comisionB);
 let promedioC: number = obtenerPromedio(comisionC);
@@ -72,12 +73,12 @@ if (promedioA === promedioB) {
     console.log(texto1 + promedioC + texto2 + "C");
   }
 }
-*/
 
 /*
 //------------- ✿◕‿◕✿----------------
+//------------- ✿◕‿◕✿----------------
 // CODIGO ENVIADO POR LA ALUMNA GISELA GENTILE - Funciona perfecto!
-
+//------------- ✿◕‿◕✿----------------
 let dimension: number = Number(prompt("Ingrese la dimension del arreglo..."));
 
 let primerArreglo: number[] = new Array(dimension);
@@ -113,7 +114,8 @@ cargarArreglo(segundoArreglo, dimension);
 console.log (sumarArreglos(primerArreglo, segundoArreglo, tercerArreglo, dimension));
 */
 
-
+//------------- ✿◕‿◕✿----------------
+// EL MÍO EMPIEZA ACÁ Y NO ME SALE :-(
 //------------- ✿◕‿◕✿----------------
 
 // CLASE 9 - Lunes 16 de mayo de 2022
@@ -132,6 +134,7 @@ v2 = 6, 9, 2, 5, 9, 4
 vSuma = 7, 12, 9, 14, 18, 9
 */
 
+/*
 
 let v1: number[] = new Array(6);
 let v2: number[] = new Array(6);
@@ -174,7 +177,10 @@ mostrarVector(v2, 6);
 console.log("Valores de vSuma");
 mostrarVector(vSuma, 6);
 
+*/
 
+//------------- ✿◕‿◕✿----------------
+//HASTA ACÁ
 //------------- ✿◕‿◕✿----------------
 
 //CLASE 7 - Lunes 9 de mayo de 2022
